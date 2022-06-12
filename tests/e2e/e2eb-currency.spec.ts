@@ -5,7 +5,7 @@ import { CurrencyPage } from '../e2e/CurrencyPage';
 import { PaymentPage } from '../e2e/page-objects/componenets/PaymentPage' ;
 
 
-test.describe.only('Login to Account', () => {
+test.describe('Login to Account', () => {
   let loginPage: LoginPage
   let navbar: Navbar
   let currencyPage: CurrencyPage

@@ -5,16 +5,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tC":"npx playwright test --config=playwright.config.ts --project=C",
-    "tF":"npx playwright test --config=playwright.config.ts --project=F",
-    "tW":"npx playwright test --config=playwright.config.ts --project=W",
-    "ete":"npx playwright test --config=e2e.config.ts --project=C",
-    "etec":"npx playwright test --config=e2e.config.ts --headed --project=C"
+    "tC": "npx playwright test --config=playwright.config.ts --project=C",
+    "tF": "npx playwright test --config=playwright.config.ts --project=F",
+    "tW": "npx playwright test --config=playwright.config.ts --project=W",
+    "ete": "npx playwright test --config=e2e.config.ts --project=C",
+    "etec": "npx playwright test --config=e2e.config.ts --headed --project=C",
+    "api": "npx playwright test --config=api.config.ts --project=C"
+    
   },
   "author": "Anna Volkova",
   "license": "ISC",
   "dependencies": {
-    "@playwright/test": "^1.22.2",
     "prettier": "^2.6.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.22.2"
   }
 }
+

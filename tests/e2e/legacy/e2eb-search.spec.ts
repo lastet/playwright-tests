@@ -10,3 +10,6 @@ test.describe("search flow", () => {
     await expect(success).toBeVisible()
     })
 })
+
+//java -jar jenkins.war --httpPort=8080 --enable-future-java
+//pwd
