@@ -1,0 +1,20 @@
+{
+  "name": "playwright-tests",
+  "version": "1.0.0",
+  "description": "Automated software testing w Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tC":"npx playwright test --config=playwright.config.ts --project=C",
+    "tF":"npx playwright test --config=playwright.config.ts --project=F",
+    "tW":"npx playwright test --config=playwright.config.ts --project=W",
+    "ete":"npx playwright test --config=e2e.config.ts --project=C",
+    "etec":"npx playwright test --config=e2e.config.ts --headed --project=C"
+  },
+  "author": "Anna Volkova",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.22.2",
+    "prettier": "^2.6.2"
+  }
+}
