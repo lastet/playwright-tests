@@ -1,6 +1,4 @@
-const {defaults} = require('jest-config');
+//<====This is jest.config.js====>
 module.exports = {
-  // ...
-  moduleFileExtensions: [...defaults.moduleFileExtensions, 'ts', 'tsx'],
-  // ...
-};
+    setupFilesAfterEnv: ["<rootDir>/setupTests.js"]
+  }

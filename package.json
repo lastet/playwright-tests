@@ -11,11 +11,11 @@
     "ete": "npx playwright test --config=e2e.config.ts --project=C",
     "etec": "npx playwright test --config=e2e.config.ts --headed --project=C",
     "api": "npx playwright test --config=api.config.ts --project=C"
-    
   },
   "author": "Anna Volkova",
   "license": "ISC",
   "dependencies": {
+    "crypto": "^1.0.1",
     "prettier": "^2.6.2"
   },
   "devDependencies": {
